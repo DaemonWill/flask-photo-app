@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% if title %}
+      <title>{{title}}</title>
+    {% else %}
+      <title>Title was not Present O.o</title>
+    {% endif %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link type="text/css" href="assets/styles/gridApp.css" rel="stylesheet" />-->
+  </head>
+
+  <body>
+    <div>Flask Photo App:
+      <a href="/uploader">Upload Photo</a>
+    </div>
+    <hr>
+    {% block body %}
+    {% endblock %}
+
+    <!--<script type="text/javascript" src="../libs/angular.min.js"></script>-->
+
+  </body>
+</html>

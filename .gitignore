@@ -1,0 +1,5 @@
+## python cache ##
+app/__pycache__/
+
+## external libs ##
+flask/
