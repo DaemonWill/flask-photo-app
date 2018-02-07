@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block body %}
-  <form action="" method="post" name="uploadForm">
+  <form action="http://localhost:5000/uploader" method="POST" name="uploadForm" enctype="multipart/form-data">
     <div>
-      <input type="file" name="Select Photo">
+      <input type="file" name="file"/>
     </div>
     <div>
-      <input type="submit" value="Submit Photo">
+      <input type="submit" />
     </div>
   </form>
 {% endblock %}
