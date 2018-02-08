@@ -9,6 +9,6 @@ deploy:
   provider: heroku
   api_key:
     secure: NkedpqFwMrpQBD2jOxJtq3MIIlrfOd+iuzTy413Qqk99iQkJu5ZdhA0uQBy7LhtWuSQ+iwBY2CsGjCrdtWVsTboHfTGxBJinC8Uj1xZhwta8m6vZ6GSWjy1INE6peRRkaRsf95cDZTa/yseVAWRXfVfUhkPpL0EBEVYTs4XjNa1Gs+TtUcHI24cMVCwtFPaGRozmBOMDHBdeDkCygWbnSV+JIfVipxFsBi6SzUqiwOvFSFKgD6WGmzgIS+6PbN2D6jOvXiPNP9P0UP9AOqnK/7DJQR2/kt8Pgxeo1BP3PlmxGcQFflRhG9aiT9bGefKn9TkzWTRqe4TMv/Pk9P0jERV2nXm0NYZRT+yy/lkrFFk2zOopGNNfIi9AF7TiN0fY/5bOU5dW3KC8VN27ofHbhOte3q5imBpcpDOGe0Fj2xiMFus//Aonx43+yqvG9HsSHIjrua4a4eQEL1yBq9+sIEzWwF26QiARnZSSLUfRTZhBjmnSN4vD3wMy7SAI4aXBrf/2qwvo8h6K308ExU+NJfkz7bMTkByeWAogoid3bxup5BAYzxK+YJQN/4pXYl/1u1qzhgbx/1YjHydYYHfdvCY1VDFZC7AyFWeedUvKeRIPUSa3V/iMu5PDyQvAUY/VQ8XKD6GR0fOoU4KB+QkdaCmiIWwAFS1wPE2sPhBfiMA=
-  app: flask-photo-app
+  app: rocky-shore-70939
   on:
     repo: DaemonWill/flask-photo-app
