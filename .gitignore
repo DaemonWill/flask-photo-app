@@ -1,5 +1,7 @@
 ## python cache ##
-app/__pycache__/
+__pycache__/
+*/__pycache__/
+
 
 ## external libs ##
 flask/

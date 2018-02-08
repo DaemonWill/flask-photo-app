@@ -38,6 +38,7 @@ def uploader():
         return render_template("index.html",
                                 title = "Photo Uploader")
 
+#report a 404 for any other unhandled paths/files
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template("error.html",
