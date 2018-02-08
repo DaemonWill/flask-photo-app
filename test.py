@@ -7,6 +7,11 @@ from app import app
 #location of future test images for upload
 STATIC_PATH = os.path.join("./app/static/images", "test.jpg")
 
+#remove temp image after test
+def delete_test_images():
+    if os.path.exists(STATIC_PATH):
+        os.remove(STATIC_PATH)
+
 class TestCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -59,8 +64,7 @@ class TestCase(unittest.TestCase):
                          content_type='multipart/form-data',
                          data=data,
                          follow_redirects=True)
-        #remove temp image after test
-        os.remove(STATIC_PATH)
+        delete_test_images()
         assert response.status_code == 200
 
     #given a successful file upload, the file's content is displayed to the user
@@ -74,8 +78,7 @@ class TestCase(unittest.TestCase):
                          data=data,
                          follow_redirects=True)
         responseStr = str(response.data)
-        #remove temp image after test
-        os.remove(STATIC_PATH)
+        delete_test_images()
         assert "imgimgabc123" in responseStr
 
 # runs the unit tests in the module
