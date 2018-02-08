@@ -3,6 +3,7 @@ from app import app
 from werkzeug.utils import secure_filename
 import os
 
+#Only image files are allowed to be uploaded, prefixes will be checked against the below set
 ALLOWED_EXTENSIONS = set(["png", "jpg", "jpeg", "gif"])
 UPLOAD_FOLDER = "./app/static/images"
 
