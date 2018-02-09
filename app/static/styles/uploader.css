@@ -1,0 +1,20 @@
+body{
+  background-color: PaleTurquoise;
+  margin: 0px 0px;
+}
+div.header{
+  padding: 10px 10px;
+  background-color: DarkSlateGrey;
+  line-height: 40px;
+}
+a{
+  color: DarkTurquoise;
+}
+img.githubImg{
+  width: 40px;
+  height: 40px;
+  margin-bottom: -15px;
+}
+form{
+  padding: 10px 10px;
+}
