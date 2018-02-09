@@ -3,6 +3,8 @@ A simple flask application that allows users to upload photos and have the image
 
 [![Build Status](https://travis-ci.org/DaemonWill/flask-photo-app.svg?branch=master)](https://travis-ci.org/DaemonWill/flask-photo-app)
 
+Travis builds: https://travis-ci.org/DaemonWill/flask-photo-app
+
 ==================================================================
 ### App-Link : https://rocky-shore-70939.herokuapp.com/
 
@@ -64,7 +66,7 @@ You can run the app locally in the root folder through the command:
 `flask\Scripts\python run.py` for windows
 `flask/bin/python run.py` for linux/osx
 
-The application is fairly simple; using Flask for the server logic, the front accepts all image files submitted and shows the user the picture once it's accepted. 
+The application is fairly simple; using Flask for the server logic, the front accepts all image files submitted and shows the user the picture once it's accepted.
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

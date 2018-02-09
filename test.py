@@ -79,6 +79,7 @@ class TestCase(unittest.TestCase):
                          follow_redirects=True)
         responseStr = str(response.data)
         delete_test_images()
+        #The following assertion is commented out while troubleshooting Travis builds, it passes if locally tested
         #assert "imgimgabc123" in responseStr
 
 # runs the unit tests in the module
