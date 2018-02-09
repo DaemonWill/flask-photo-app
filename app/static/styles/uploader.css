@@ -7,6 +7,9 @@ div.header{
   background-color: DarkSlateGrey;
   line-height: 40px;
 }
+div.formDiv{
+  margin: 10px 10px 25px 10px;
+}
 a{
   color: DarkTurquoise;
 }
@@ -16,5 +19,5 @@ img.githubImg{
   margin-bottom: -15px;
 }
 form{
-  padding: 10px 10px;
+  padding: 10px 0px;
 }
